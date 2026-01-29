@@ -1,0 +1,25 @@
+2026-01-29 18:30:41 INFO  org.example.revconnect.RevConnectApplication - Starting RevConnectApplication using Java 18.0.2.1 with PID 25500 (D:\WORK\REVATURE\IdeaProjects\RevConnect\target\classes started by hp in D:\WORK\REVATURE\IdeaProjects\RevConnect)
+2026-01-29 18:30:41 INFO  org.example.revconnect.RevConnectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 18:30:44 INFO  org.example.revconnect.RevConnectApplication - Started RevConnectApplication in 3.021 seconds (process running for 3.595)
+2026-01-29 18:30:54 INFO  org.example.revconnect.Logging.ServiceLogging - Entering login() with args [vasanth@mail.com, vasanth]
+2026-01-29 18:30:55 INFO  org.example.revconnect.Logging.ServiceLogging - Exiting login() successfully
+2026-01-29 18:31:22 INFO  org.example.revconnect.RevConnectApplication - Starting RevConnectApplication using Java 18.0.2.1 with PID 17504 (D:\WORK\REVATURE\IdeaProjects\RevConnect\target\classes started by hp in D:\WORK\REVATURE\IdeaProjects\RevConnect)
+2026-01-29 18:31:22 INFO  org.example.revconnect.RevConnectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 18:31:25 INFO  org.example.revconnect.RevConnectApplication - Started RevConnectApplication in 2.984 seconds (process running for 3.532)
+2026-01-29 18:31:32 INFO  org.example.revconnect.Logging.ServiceLogging - Entering login() with args [velo@mail.com, velo]
+2026-01-29 18:31:32 INFO  org.example.revconnect.Logging.ServiceLogging - Exiting login() successfully
+2026-01-29 18:31:37 INFO  org.example.revconnect.Logging.ServiceLogging - Entering createPost() with args [2, sammamamam]
+2026-01-29 18:31:37 INFO  org.example.revconnect.Logging.ServiceLogging - Exiting createPost() successfully
+2026-01-29 18:31:39 INFO  org.example.revconnect.Logging.ServiceLogging - Entering getMyPosts() with args [2]
+2026-01-29 18:31:39 INFO  org.example.revconnect.Logging.ServiceLogging - Exiting getMyPosts() successfully
+2026-01-29 18:51:13 INFO  org.example.revconnect.RevConnectApplicationTests - Starting RevConnectApplicationTests using Java 18.0.2.1 with PID 9852 (started by hp in D:\WORK\REVATURE\IdeaProjects\RevConnect)
+2026-01-29 18:51:13 INFO  org.example.revconnect.RevConnectApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 18:51:19 INFO  org.example.revconnect.RevConnectApplicationTests - Started RevConnectApplicationTests in 5.82 seconds (process running for 7.725)
+2026-01-29 18:52:37 INFO  org.example.revconnect.RevConnectApplicationTests - Starting RevConnectApplicationTests using Java 18.0.2.1 with PID 8888 (started by hp in D:\WORK\REVATURE\IdeaProjects\RevConnect)
+2026-01-29 18:52:37 INFO  org.example.revconnect.RevConnectApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 18:52:41 INFO  org.example.revconnect.RevConnectApplicationTests - Started RevConnectApplicationTests in 4.251 seconds (process running for 5.684)
+2026-01-29 18:53:59 INFO  org.example.revconnect.RevConnectApplication - Starting RevConnectApplication using Java 18.0.2.1 with PID 8904 (D:\WORK\REVATURE\IdeaProjects\RevConnect\target\classes started by hp in D:\WORK\REVATURE\IdeaProjects\RevConnect)
+2026-01-29 18:53:59 INFO  org.example.revconnect.RevConnectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 18:54:02 INFO  org.example.revconnect.RevConnectApplication - Started RevConnectApplication in 3.302 seconds (process running for 3.939)
+2026-01-29 18:54:13 INFO  org.example.revconnect.Logging.ServiceLogging - Entering login() with args [vasanth@mail.com, vasanth]
+2026-01-29 18:54:13 INFO  org.example.revconnect.Logging.ServiceLogging - Exiting login() successfully

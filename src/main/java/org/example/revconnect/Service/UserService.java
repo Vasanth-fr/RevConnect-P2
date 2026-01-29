@@ -16,7 +16,7 @@ public class UserService {
     }
 
     // REGISTER user
-    public void register(String email, String password, AccountType accountType) {
+    public User register(String email, String password, AccountType accountType) {
 
         if (accountType == null) {
             throw new IllegalArgumentException("Account type is required");
@@ -28,10 +28,10 @@ public class UserService {
 
         User user = new User();
         user.setEmail(email);
-        user.setPassword(password); // (hash later, not now)
+        user.setPassword(password);
         user.setAccountType(accountType);
 
-        userRepository.save(user);
+        return userRepository.save(user);
     }
 
     // LOGIN user
@@ -39,6 +39,7 @@ public class UserService {
 
         return userRepository
                 .findByEmailAndPassword(email, password)
-                .orElseThrow(() -> new IllegalStateException("Invalid credentials"));
+                .orElseThrow(() ->
+                        new IllegalStateException("Invalid credentials"));
     }
 }

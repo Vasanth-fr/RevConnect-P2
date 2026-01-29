@@ -11,7 +11,6 @@ public class PostService {
 
     private final PostRepository postRepository;
 
-    // Constructor injection
     public PostService(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
@@ -38,10 +37,7 @@ public class PostService {
     // DELETE post
     public void deletePost(Long postId, Long userId) {
 
-        boolean exists =
-                postRepository.existsById(postId);
-
-        if (!exists) {
+        if (!postRepository.existsById(postId)) {
             throw new IllegalStateException("Post not found");
         }
 

@@ -9,7 +9,6 @@ public class LikeService {
 
     private final LikeRepository likeRepository;
 
-    // Constructor injection
     public LikeService(LikeRepository likeRepository) {
         this.likeRepository = likeRepository;
     }
@@ -17,10 +16,7 @@ public class LikeService {
     // LIKE a post
     public void likePost(Long userId, Long postId) {
 
-        boolean alreadyLiked =
-                likeRepository.existsByUserIdAndPostId(userId, postId);
-
-        if (alreadyLiked) {
+        if (likeRepository.existsByUserIdAndPostId(userId, postId)) {
             throw new IllegalStateException("Post already liked");
         }
 
@@ -34,10 +30,7 @@ public class LikeService {
     // UNLIKE a post
     public void unlikePost(Long userId, Long postId) {
 
-        boolean exists =
-                likeRepository.existsByUserIdAndPostId(userId, postId);
-
-        if (!exists) {
+        if (!likeRepository.existsByUserIdAndPostId(userId, postId)) {
             throw new IllegalStateException("Like not found");
         }
 

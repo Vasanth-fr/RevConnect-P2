@@ -9,5 +9,4 @@ public class RevConnectApplication {
     public static void main(String[] args) {
         SpringApplication.run(RevConnectApplication.class, args);
     }
-
 }

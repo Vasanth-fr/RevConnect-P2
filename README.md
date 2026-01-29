@@ -24,11 +24,9 @@ The application follows a **layered architecture**:  Entity → Repository → S
 
 
 ### Key Design Rules Followed
-- ❌ No JDBC (`Connection`, `PreparedStatement`, `ResultSet`)
-- ❌ No `System.out.println` in Service layer
-- ❌ No DB logic outside repositories
-- ✅ Business rules handled in Service layer
-- ✅ Exceptions thrown from Service, handled in UI
+
+- ✅ Business rules and logic handled in Service layer
+- ✅ Used @Autowired and other related annotations wherever required
 - ✅ Spring Dependency Injection (Constructor Injection)
 - ✅ Console-based UI using `CommandLineRunner`
 
